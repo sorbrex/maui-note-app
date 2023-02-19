@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NoteApp.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Image
+                Source="dotnet_bot.png"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Contatore"
+                FontSize="32"
+                HorizontalOptions="Center" />
+
+            <Label
+                x:Name="CounterLabel"
+                Text="Counter Reached: 0"
+                FontSize="18"
+                HorizontalOptions="Center" />
+            
+            <HorizontalStackLayout
+                Spacing="15"
+                Padding="20,0"
+                HorizontalOptions="CenterAndExpand">
+                
+                <Button
+                    x:Name="Minus_btn"
+                    Text="-"
+                    Clicked="OnMinusClick"
+                    HorizontalOptions="Center" 
+                    />
+
+                <Button
+                    x:Name="Plus_btn"
+                    Text="+"
+                    Clicked="OnPlusClick"
+                    HorizontalOptions="Center" />
+
+            </HorizontalStackLayout>
+
+            <Button 
+                Text="Show PopUp"
+                Clicked="ShowPopup"
+                HorizontalOptions="Center"
+                />
+            
+            <Button 
+                Text="Navigate"
+                Clicked="GoToNewNote"
+                HorizontalOptions="Center"
+                />
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

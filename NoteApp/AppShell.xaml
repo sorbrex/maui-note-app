@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="NoteApp.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:NoteApp"
+    Shell.FlyoutBehavior="Disabled">
+    <!-- 
+        Shell.FlyoutBehavior descrive il metodo di navigazione
+        Con Flyout abbiamo un menu sempre visibile (Hamburger Menu) per navigare tra le pagine
+        Locked mostra costantemente una barra laterale che ci permette di navigare tra le pagine
+        Disabled non permette alcuna navigazione tramite menu
+    -->
+    
+    <!-- 
+        Con le Tab Bar possiamo navigare tra le finestre con le tab invece che con i menu
+    
+        <TabBar>
+            <ShellContent
+            Title="Zio Pollo Contatore"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="MainPage" />
+
+            <ShellContent
+            Title="Zio Pollo Notatore"
+            ContentTemplate="{DataTemplate local:CreateNotePage}"
+            Route="NewNote" />
+        </TabBar>
+     -->
+    
+   <!--
+    Per dichiarare una sola pagina (Main Page) e poi spostarci tra le altre, dobbiamo usare il sistema di Routing (Vedi il file AppShell.xaml.cs)
+    -->
+
+    <ShellContent
+        Title="Zio Pollo Contatore"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+    
+</Shell>

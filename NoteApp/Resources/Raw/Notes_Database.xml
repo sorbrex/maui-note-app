@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NoteTakingApp>
+	<Notes>
+		<Note Date="16/02/2023 10:01:30" Category="A Category" State="Active">
+			<Contacts>
+				<Contact Id="Add here any contact reference" />
+				This is the content of the note, You may try to add some
+				images
+			</Contacts>
+		</Note>
+	
+		<Note Date="16/02/2023 10:01:30" Category="Another Category" State="Active">
+			<Contacts>
+				<Contact Id="Add here any contact reference" />
+				This is the content of the note
+			</Contacts>
+		</Note>
+	</Notes>
+	
+	<Reminders>
+		<Reminder Date="2023-02-16T10:01:30.1531885+01:00">
+			This is an optianl message to display
+		</Reminder>
+	</Reminders>
+
+</NoteTakingApp>
