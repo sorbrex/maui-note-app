@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NoteTakingApp>
+	<Notes>
+		<Note Id="I01" Date="16/02/2023 10:01:30" Category="A Category" State="Active">
+			<Body>
+				<Title>First Note</Title>
+				<Content>This is the content of the first note</Content>
+			</Body>
+		</Note>
+	
+		<Note Id="I02" Date="16/02/2023 10:01:30" Category="A Category" State="Active">
+			<Body>
+				<Title>Second Note</Title>
+				<Content>This is the content of the second note</Content>
+			</Body>
+		</Note>
+	
+		<Note Id="I03" Date="16/02/2023 10:01:30" Category="A Category" State="Active">
+			<Body>
+				<Title>Third Note</Title>
+				<Content>This is the content of the third note</Content>
+			</Body>
+		</Note>
+	</Notes>
+	
+	<Reminders>
+		<Reminder Date="2023-02-16T10:01:30.1531885+01:00">
+			This is an optianl message to display
+		</Reminder>
+	</Reminders>
+
+</NoteTakingApp>

@@ -54,8 +54,7 @@
 
 	<ItemGroup>
 	  <Folder Include="Model" />
-	  <Folder Include="View" />
-	  <Folder Include="ViewModel" />
+	  <Folder Include="ViewModel\" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -63,7 +62,16 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="CreateNotePage.xaml">
+	  <Compile Update="View\NoteAppPage.xaml.cs">
+	    <DependentUpon>NoteAppPage.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="View\CreateNotePage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\NoteAppPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

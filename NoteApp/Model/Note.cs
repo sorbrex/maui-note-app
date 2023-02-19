@@ -1,21 +1,14 @@
 ﻿using System;
 
 namespace NoteApp.Model {
-    internal class Note {
-        private string _category;
-        private string _state;
-        private DateTime _date;
+    public class Note {
 
-        //Getter
-        public string GetCategory() { return _category; }
-        public string GetState() { return _state; }
-        public DateTime GetDate() { return _date; }
+        public string Id { get; set; }
+        public string Title { get; set; }
+        public string Content { get; set; }
+        public string Category { get; set; }
+        public string State { get; set; }
+        public DateTime Date { get; set; }
 
-        //Constructor
-        public Note(string State, string Category, DateTime Date) {
-            this._category = Category;
-            this._state = State;
-            this._date = Date; 
-        }
     }
 }

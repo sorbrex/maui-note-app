@@ -52,8 +52,8 @@
                 />
             
             <Button 
-                Text="Navigate"
-                Clicked="GoToNewNote"
+                Text="Note App"
+                Clicked="GoToNoteApp"
                 HorizontalOptions="Center"
                 />
 

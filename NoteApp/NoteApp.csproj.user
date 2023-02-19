@@ -11,7 +11,10 @@
     <PlatformTarget>x64</PlatformTarget>
   </PropertyGroup>
   <ItemGroup>
-    <MauiXaml Update="CreateNotePage.xaml">
+    <MauiXaml Update="View\CreateNotePage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="View\NoteAppPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>

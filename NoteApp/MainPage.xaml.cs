@@ -36,8 +36,8 @@ public partial class MainPage : ContentPage {
 		DisplayAlert("Alert", "This is an alert", "OK");
     }
 
-    private async void GoToNewNote ( object sender, EventArgs e ) {
-        await Shell.Current.GoToAsync("CreateNote"); //Possiamo passare anche query params con "CreateNote?id=IS93"
+    private async void GoToNoteApp ( object sender, EventArgs e ) {
+        await Shell.Current.GoToAsync("NoteApp"); //Possiamo passare anche query params con "CreateNote?id=IS93"
 		//Se vogliamo creare un pulsante per tornare indietro, scriveremo "await Shell.Current.GoToAsync("..");"
     }
     
