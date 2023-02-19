@@ -8,46 +8,46 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = NoteApp
-build_property.ProjectDir = C:\Users\nando\Desktop\Progetti\NoteApp\NoteApp\
+build_property.ProjectDir = /Users/talant/Desktop/NoteApp/NoteApp/
 
-[C:/Users/nando/Desktop/Progetti/NoteApp/NoteApp/App.xaml]
+[/Users/talant/Desktop/NoteApp/NoteApp/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = NoteApp.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/nando/Desktop/Progetti/NoteApp/NoteApp/AppShell.xaml]
+[/Users/talant/Desktop/NoteApp/NoteApp/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = NoteApp.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/nando/Desktop/Progetti/NoteApp/NoteApp/MainPage.xaml]
+[/Users/talant/Desktop/NoteApp/NoteApp/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = NoteApp.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/nando/Desktop/Progetti/NoteApp/NoteApp/Resources/Styles/Colors.xaml]
+[/Users/talant/Desktop/NoteApp/NoteApp/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = NoteApp.Resources.Styles.Colors.xaml
-build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
-build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
 
-[C:/Users/nando/Desktop/Progetti/NoteApp/NoteApp/Resources/Styles/Styles.xaml]
+[/Users/talant/Desktop/NoteApp/NoteApp/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = NoteApp.Resources.Styles.Styles.xaml
-build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
-build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
 
-[C:/Users/nando/Desktop/Progetti/NoteApp/NoteApp/View/CreateNotePage.xaml]
+[/Users/talant/Desktop/NoteApp/NoteApp/View/CreateNoteView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = NoteApp.View.CreateNotePage.xaml
-build_metadata.AdditionalFiles.TargetPath = View\CreateNotePage.xaml
-build_metadata.AdditionalFiles.RelativePath = View\CreateNotePage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = NoteApp.View.CreateNoteView.xaml
+build_metadata.AdditionalFiles.TargetPath = View/CreateNoteView.xaml
+build_metadata.AdditionalFiles.RelativePath = View/CreateNoteView.xaml
 
-[C:/Users/nando/Desktop/Progetti/NoteApp/NoteApp/View/NoteAppPage.xaml]
+[/Users/talant/Desktop/NoteApp/NoteApp/View/NoteAppView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = NoteApp.View.NoteAppPage.xaml
-build_metadata.AdditionalFiles.TargetPath = View\NoteAppPage.xaml
-build_metadata.AdditionalFiles.RelativePath = View\NoteAppPage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = NoteApp.View.NoteAppView.xaml
+build_metadata.AdditionalFiles.TargetPath = View/NoteAppView.xaml
+build_metadata.AdditionalFiles.RelativePath = View/NoteAppView.xaml

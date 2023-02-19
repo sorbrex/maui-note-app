@@ -1,0 +1,9 @@
+﻿Ok quindi in sostanza l'MVVM è composto da 3 cose:
+
+Model:  Si occupa della definizione dei Dati. Sostanzialmente Definisce le classi e i tipi, o modelli, che andremo ad usare nel programma.
+        In questo caso ad esempio possiamo vedere come nella cartella model sia presente il file Note che definisce la classe Note.
+        Questo per definire le proprietà e la natura di quel tipo di dato.
+
+View:   Il Layout della UI, questi file non devono contenere codice che effettua operazioni sui dati, deve solo prendere i dati dal ViewModel e visualizzarli in interfaccia
+
+ViewModel: La parte di codice che si occupa di manipolare i dati. La struttura dei dati viene letta dai model e viene poi inviata alle View così da presentare i dati

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:model="clr-namespace:NoteApp.Model"
+             x:Class="NoteApp.View.NoteAppView">
+    <!-- s
+        If We want to use a shortcut name we con do like above with
+            xmlns:model="clr-namespace:NoteApp.Model"
+        In the code below, write model:Note instead of NoteApp.Model.Note
+    -->
+
+    <VerticalStackLayout>
+        <Label 
+            Text="Welcome to NoteApp"
+            FontSize="42"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            Padding="20"/>
+
+        <ScrollView>
+            <CollectionView>
+                <!-- This Item Source will be removed in mvvm, now its only for understand the concept-->
+                <CollectionView.ItemsSource>
+                    <x:Array Type="{x:Type model:Note}">
+                        <model:Note Title="Note 1" Content="Description 1" Category="Random" Date="Saturday, June 14, 2014 6:32 AM"  State="Active"/>
+                        <model:Note Title="Note 2" Content="Description 2" Category="Random" Date="Saturday, June 14, 2014 6:32 AM"  State="Active"/>
+                        <model:Note Title="Note 3" Content="Description 3" Category="Random" Date="Saturday, June 14, 2014 6:32 AM"  State="Active"/>
+                    </x:Array>
+                </CollectionView.ItemsSource>
+                
+                <!-- This tell how a single data (of type Note) will be presented-->
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="model:Note">
+                            <ScrollView>
+                                <VerticalStackLayout Padding="10">
+
+                                    <VerticalStackLayout Padding="10">
+                                        <Label
+                                            Text="{Binding Title}"
+                                            FontSize="32"
+                                            HorizontalOptions="Start" />
+
+                                        <Label
+                                            Text="{Binding Content}"
+                                            FontSize="18"
+                                            HorizontalOptions="Start" />
+                                    </VerticalStackLayout>
+
+                                    <HorizontalStackLayout Padding="5">
+                                        <Label
+                                            Text="{Binding Date}"
+                                            FontSize="12"
+                                            HorizontalOptions="Center"
+                                            Padding="5" />
+
+                                        <Label
+                                            Text="{Binding Category}"
+                                            FontSize="12"
+                                            HorizontalOptions="Center"
+                                            Padding="5" />
+                                    </HorizontalStackLayout>
+            
+                                </VerticalStackLayout>
+                            </ScrollView>
+                            
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </ScrollView>
+
+    </VerticalStackLayout>
+</ContentPage>

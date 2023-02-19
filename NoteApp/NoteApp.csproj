@@ -63,7 +63,7 @@
 
 	<ItemGroup>
 	  <Compile Update="View\NoteAppPage.xaml.cs">
-	    <DependentUpon>NoteAppPage.xaml</DependentUpon>
+	    <DependentUpon>NoteAppView.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
