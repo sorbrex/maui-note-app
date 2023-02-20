@@ -8,7 +8,7 @@ public partial class AppShell : Shell
 
         //Registriamo Questa Pagina Come Pagina Di Creazione Note e Assegnamo un "URL" Per Il Routing
         Routing.RegisterRoute("CreateNote", typeof(View.CreateNoteView));
-        //Routing.RegisterRoute("NoteApp", typeof(View.NoteAppView));
+        Routing.RegisterRoute("NoteList", typeof(View.NoteListView));
 
     }
 }

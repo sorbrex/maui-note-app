@@ -50,11 +50,13 @@
 
 	<ItemGroup>
 	  <None Remove="Resources\Raw\Notes_Database.xml" />
+	  <None Remove="Services\" />
 	</ItemGroup>
 
 	<ItemGroup>
 	  <Folder Include="Model" />
 	  <Folder Include="ViewModel\" />
+	  <Folder Include="Services\" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -73,6 +75,12 @@
 	  </MauiXaml>
 	  <MauiXaml Update="View\NoteAppPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Condition=" '$(EnableDefaultXamlItems)' == 'true' " Update="View\MainPage.xaml">
+	    <SubType>Designer</SubType>
+	  </MauiXaml>
+	  <MauiXaml Condition=" '$(EnableDefaultXamlItems)' == 'true' " Update="View\MainPageView.xaml">
+	    <SubType>Designer</SubType>
 	  </MauiXaml>
 	</ItemGroup>
 

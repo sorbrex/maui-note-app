@@ -10,5 +10,14 @@ namespace NoteApp.Model {
         public string State { get; set; }
         public DateTime Date { get; set; }
 
+
+        public Note(string Id, string Title, string Content, string Category, string State, DateTime Date) {
+            this.Id = Id;
+            this.Title = Title;
+            this.Content = Content;
+            this.Category = Category;
+            this.State = State;
+            this.Date = Date;
+        }
     }
 }

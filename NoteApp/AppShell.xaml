@@ -33,7 +33,7 @@
     -->
 
     <ShellContent
-        ContentTemplate="{DataTemplate local:View.NoteAppView}"
-        Route="NoteApp" />
+        ContentTemplate="{DataTemplate local:View.NoteListView}"
+        Route="NoteList" />
     
 </Shell>
